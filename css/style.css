@@ -26,8 +26,11 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Raleway', sans-serif
+        /* font-family: 'Stint Ultra Condensed', cursive; */
 }
+
+/* body,h1,h2{font-family: "Raleway", sans-serif} */
 
 p {
     margin: 0;
@@ -45,7 +48,7 @@ body a:hover {
 
 /*-- banner --*/
 .agileits-banner {
-    background: url(../images/bg-header.jpg)no-repeat center 0px;
+    background: url(../images/bg-header1.jpg)no-repeat center 0px;
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
@@ -137,8 +140,8 @@ ul.w3layouts-icons {
 
 .banner-w3text h1 {
     color: #fff;
-    font-size: 13em;
-    letter-spacing: 25px;
+    font-size: 6em;
+    letter-spacing: 18px;
     line-height: 1em;
 }
 
@@ -149,9 +152,9 @@ ul.w3layouts-icons {
 }
 
 .banner-w3text p {
-    font-size: 1.2em;
+    font-size: 2em;
     color: #fff;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
     margin-top: 0.5em;
 }
 
@@ -354,9 +357,10 @@ ul.nav.navbar {
 h3.title,
 h2.title {
     font-size: 5em;
-    color: #00cae4;
+    color: #E96C3F;
     margin-bottom: 1em;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 .welcome-right {
@@ -399,7 +403,9 @@ h2.title {
 }
 
 .welcome p {
-    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 1.5em;
     color: #999;
     line-height: 1.8em;
 }
@@ -628,8 +634,9 @@ h2.title {
 }
 
 .slid-w3-agile p {
-    font-size: 1.1em;
-    color: #fff;
+    font-size: 1.5em;
+    /* color: #fff; */
+    color: rgb(236, 108, 64);
     line-height: 1.8em;
     margin-top: 4em;
 }
@@ -1782,8 +1789,8 @@ h2.title {
 
 @media(max-width:640px) {
     .banner-w3text h1 {
-        font-size: 7em;
-        letter-spacing: 8px;
+        font-size: 4em;
+        letter-spacing: 6px;
     }
 
     .banner-w3text p {
